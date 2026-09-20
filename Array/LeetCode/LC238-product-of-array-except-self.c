@@ -1,5 +1,5 @@
 int* productExceptSelf(int* nums, int numsSize, int* returnSize) {
-     int* answer = malloc(numsSize * sizeof(int));
+    int* answer = malloc(numsSize * sizeof(int));
 
     int left = 1;
 
